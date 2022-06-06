@@ -1,0 +1,14 @@
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.exe
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.deps.json
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.runtimeconfig.json
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.runtimeconfig.dev.json
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.dll
+D:\C#\PR3\PR3\bin\Debug\netcoreapp3.1\PR3.pdb
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.csproj.AssemblyReference.cache
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.AssemblyInfoInputs.cache
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.AssemblyInfo.cs
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.csproj.CoreCompileInputs.cache
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.dll
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.pdb
+D:\C#\PR3\PR3\obj\Debug\netcoreapp3.1\PR3.genruntimeconfig.cache

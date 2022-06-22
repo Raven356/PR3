@@ -7,10 +7,9 @@ namespace PR3
     class Menu
     {
 
-        public void ChooseFactory()
+        public void ChooseCollection()
         {
-            ArrayCardFactory<Card> arrayCardFactory;
-            ListCardFactory<Card> listCardFactory;
+            CollectionCreater creator;
             while (true)
             {
                 try
@@ -20,18 +19,18 @@ namespace PR3
                     switch (choice)
                     {
                         case "L":
-                            listCardFactory = new ListCardFactory<Card>();
-                            new AddCard().AddCardToChoosedCollection(listCardFactory);
+                            creator = new ListCreator();
+                            creator.AddCardToCollection();
                             break;
                         case "A":
-                            arrayCardFactory = new ArrayCardFactory<Card>();
-                            new AddCard().AddCardToChoosedCollection(arrayCardFactory);
+                            creator = new ArrayCreator();
+                            creator.AddCardToCollection();
                             break;
                         default:
                             throw new ArgumentException("Wrong input");
                     }
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     Console.WriteLine(e.Message);
                 }

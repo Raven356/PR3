@@ -6,7 +6,7 @@ namespace PR3
     {
         static void Main(string[] args)
         {
-            new Menu().ChooseFactory();
+            new Menu().ChooseCollection();
         }
     }
 }

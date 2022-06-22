@@ -1,26 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using System.Linq;
 
 namespace PR3
 {
-    class ArrayCardFactory<T> : IAbstractCardFactory<T>
+    class ListCardCollection<T> : ICardCollection<T>
     {
-        readonly Array<T> _array = new Array<T>();
+        readonly LinkedList<T> _linkedList = new LinkedList<T>();
         public void AddElement(T data)
         {
-            _array.Add(data);
+            _linkedList.Add(data);
         }
 
         public bool CheckIsElementExists(T data)
         {
-            return _array.Contains(data);
+            return _linkedList.Contains(data);
         }
 
         public int CountElements()
         {
-            return _array.Count();
+            return _linkedList.Count();
         }
     }
 }

@@ -7,7 +7,7 @@ namespace PR3
 {
     class AddCard
     {
-        public void AddCardToChoosedCollection(IAbstractCardFactory<Card> abstractCardFactory)
+        public void AddCardToChoosedCollection(ICardCollection<Card> abstractCardFactory)
         {
             while (true)
             {
@@ -26,7 +26,7 @@ namespace PR3
                     }
                     if (abstractCardFactory.CheckIsElementExists(card) || abstractCardFactory.CountElements() == 36)
                     {
-                        throw new ArgumentException("Card allready exists of deck is full");
+                        throw new ArgumentException("Card allready exists or deck is full");
                     }
                     abstractCardFactory.AddElement(card);
                 }

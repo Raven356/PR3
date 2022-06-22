@@ -5,7 +5,7 @@ using System.Linq;
 
 namespace PR3
 {
-    class Array<T>:IAbstractAdd<T>, IAbstractContains<T>, IAbstractCount<T>
+    class Array<T>
     {
         private T[] _array = new T[0];
 

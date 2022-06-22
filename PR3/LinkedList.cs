@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PR3
 {
-    class LinkedList<T>:IEnumerable<T>, IAbstractAdd<T>, IAbstractContains<T>, IAbstractCount<T>
+    class LinkedList<T>:IEnumerable<T>
     {
         Node<T> _head; 
         Node<T> _tail;
